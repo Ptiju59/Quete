@@ -1,0 +1,37 @@
+cookie : 
+  expiry_days :  30 
+  key :  some_signature_key  # Doit être une chaîne 
+  name :  some_cookie_name 
+credentials : 
+  usernames : 
+    julien : 
+      email :  julien @gmail.com 
+      failed_login_attempts :  0  # Sera géré automatiquement 
+      connected_in :  False  # Sera géré automatiquement 
+      name :  Julien
+      password :  abc  # Sera haché automatiquement 
+      roles : 
+      -  admin 
+      -  editor 
+      -  viewer 
+    rbriggs : 
+      email :  rbriggs @gmail . com 
+      failed_login_attempts :  0  # Sera géré automatiquement 
+      connected_in :  False  # Sera géré automatiquement 
+      name :  Rebecca  Briggs 
+      password :  def  # Sera haché automatiquement 
+      roles : 
+      -  viewer 
+oauth2 : 
+  google :  # Suivez les instructions : https://developers.google.com/identity/protocols/oauth2 
+    client_id :  # À remplir 
+    client_secret :  # À remplir 
+    redirect_uri :  # URL vers laquelle rediriger après l'authentification OAuth2 
+  microsoft :  # Suivez les instructions : https://learn.microsoft.com/en-us/graph/auth-register-app-v2 
+    client_id :  # À remplir 
+    client_secret :  # À remplir 
+    redirect_uri :  # URL vers laquelle rediriger après l'authentification OAuth2 
+    tenant_id :  # À remplir 
+pre - authorized : 
+  emails : 
+  -  melsby @gmail . com
