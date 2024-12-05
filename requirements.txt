@@ -5,3 +5,4 @@ seaborn
 plotly
 matplotlib
 streamlit_option_menu
+yaml
