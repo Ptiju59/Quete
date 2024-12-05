@@ -21,6 +21,7 @@ authenticator = stauth.Authenticate(
 
 
 authenticator.login()
+st.write("username : Julien, MDP : abc")
 if st.session_state['authentication_status']:
     
     menu_option = st.sidebar.selectbox(
